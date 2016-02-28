@@ -2,7 +2,7 @@ import ReactOnRails from 'react-on-rails';
 import React from 'react';
 import HelloWorld from '../containers/HelloWorld';
 
-export default (props) => (
+let HelloWorldApp = (props) => (
   <HelloWorld {...props} />
 );
 
